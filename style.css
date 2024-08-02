@@ -1,0 +1,40 @@
+*{
+    font-family: cursive;
+    font-style: italic;
+}
+html{
+    background-color: rgb(120, 12, 139);
+}
+.heading1 {
+    text-align: center;
+  }
+  #modedark {
+    margin-left: 90%;
+    cursor: pointer;
+  }
+  .ol {
+    list-style-type: none;
+    font-size: 2rem;
+  }
+  
+  li {
+    text-align: center;
+    margin: 10px;
+  }
+  a {
+    color: rgb(107, 107, 205);
+  }
+  #list-container {
+    width: 90%;
+    height: auto;
+    border: rgb(11, 146, 195) solid 1px;
+    box-shadow: yellow;
+    margin: 0 auto;
+    border-radius: 9px;
+    background-color: rgb(41, 50, 78);
+  }
+  .view-code{
+    color: rgb(114, 105, 87);
+    font-style: normal;
+    font-size: 1rem;
+  }
