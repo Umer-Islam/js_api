@@ -5,6 +5,7 @@ let buttonPress = () => {
 };
 
 let apiCall = () => {
+  document.querySelector('#wait').textContent= 'wait... while we fetch your pokemon'
   formTextValue = formText.value;
   console.log(formTextValue);
   let url = `https://pokeapi.co/api/v2/pokemon/${formTextValue}/`;
@@ -14,7 +15,7 @@ let apiCall = () => {
       console.log(data);
 
       document.querySelector("h2").textContent = data.name;
-      document.querySelector('img').src = data.sprites.back_default;
+      document.querySelector('img').src = data.sprites.front_default;
       
     })
     .catch((err) => console.log(err));
